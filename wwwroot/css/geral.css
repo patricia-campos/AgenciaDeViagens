@@ -1,0 +1,23 @@
+/*Fonte*/
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+:root {
+  --amarelo-medio: #f3c04d;
+  --azul-claro:#97dfee;
+  --cor-menu: #3d3e40;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
+body {
+  background: var(--azul-claro);
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
